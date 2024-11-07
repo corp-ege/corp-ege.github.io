@@ -216,9 +216,9 @@
                     } 
                     
                     // set marker style
-                    var lpgIcon = L.icon({
-                        iconUrl: 'img/lpgicon.png',
-                        shadowUrl: 'img/lpgicon_shadow.png',
+                    var icon = L.icon({
+                        iconUrl: 'img/icon.png',
+                        shadowUrl: 'img/icon_shadow.png',
                         iconSize: [34,51],
                         shadowSize: [29,29],
                         iconAnchor: [17,51],
@@ -259,7 +259,7 @@
                     feat = L.geoJSON(projects, {
                         onEachFeature: forEachFeature,
                         pointToLayer: function(feature,latlng){                                    
-                            var featMarker = L.marker(latlng,{icon: lpgIcon});
+                            var featMarker = L.marker(latlng,{icon: icon});
                             feature.marker = featMarker;
                             return featMarker;
                             }
