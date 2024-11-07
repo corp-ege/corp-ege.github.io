@@ -25,10 +25,10 @@
                     
                     }).addTo(map);
 
-                    // define projects                            
-                    var projects = {
+                    // define locations                            
+                    var locations = {
                         "type":"FeatureCollection",
-                        "name":"projloc",
+                        "name":"loc",
                         "crs":{
                             "type":"name",
                             "properties":{
@@ -39,179 +39,74 @@
                             {
                                 "type":"Feature",
                                 "properties":{
-                                    "client":"Gold Candle Ltd.",
-                                    "project":"Kerr-Addison Mine",
-                                    "Country":"Canada",
-                                    "State\/Province":"Ontario",
-                                    "Nearest Town":"Virginiatown",
-                                    "lat":48.137563,
-                                    "long":-79.57929,
-                                    "time":"March 2015 to Present",
-                                    "description":"Property and regional-scale surface exploration programs",
-                                    "img":"<img src=\".\/img\/projects\/a.JPG\">"
+                                    "name":"Izmir (ADB) Airport.",
+                                    "country":"Türkiye",
+                                    "area":"Izmir",
+                                    "description":"This is a description",
+                                    "url":"<a href='https://adnanmenderesairport.com/'>"
                                 },
                                 "geometry":{
                                     "type":"Point",
                                     "coordinates":[
-                                    -79.57929,
-                                    48.137563
+                                    27.1491,
+                                    38.2917
                                     ]
                                 }
                             },
                             {
                                 "type":"Feature",
                                 "properties":{
-                                    "client":"Almadex Minerals Ltd.",
-                                    "project":"El Cobre porphyry gold deposit",
-                                    "Country":"Mexico",
-                                    "State\/Province":"Veracruz",
-                                    "Nearest Town":"Tinajitas",
-                                    "lat":19.61809,
-                                    "long":-96.442478,
-                                    "time":"April – May 2018",
-                                    "description":"Lithofacies classification and interpretation",
-                                    "img":"<img src=\".\/img\/projects\/b.jpeg\">"
+                                    "name":"Wyndham Grand Izmir Ozdilek Hotel",
+                                    "country":"Türkiye",
+                                    "area":"Izmir",
+                                    "description":"This is a description",
+                                    "url":"<a href='https://www.wyndhamhotels.com/tr-tr/wyndham-grand/izmir-turkiye/wyndham-grand-izmir-ozdilek-thermal-and-spa/overview?CID=LC:46q62bu8edfbx3y:47728&iata=00093796'>"
                                 },
                                 "geometry":{
                                     "type":"Point",
                                     "coordinates":[
-                                    -96.442478,
-                                    19.61809
+                                    27.0320,
+                                    38.4115
                                     ]
                                 }
                             },
                             {
                                 "type":"Feature",
                                 "properties":{
-                                    "client":"OceanaGold Corp.",
-                                    "project":"Didipio porphyry gold-copper deposit",
-                                    "Country":"Philippines",
-                                    "State\/Province":"Nueva Vizcaya",
-                                    "Nearest Town":"Didipio",
-                                    "lat":16.3342,
-                                    "long":121.4589,
-                                    "time":"January 2017 and March-April 2015",
-                                    "description":"Detailed drill core logging and interpretation of the Dinkidi breccia complex; including hydrothermal, volcanic, and intrusion-related breccias",
-                                    "img":"<img src=\".\/img\/projects\/c.JPG\">"
+                                    "name":"Tav Airport Hotel Izmir",
+                                    "country":"Türkiye",
+                                    "area":"Izmir",
+                                    "description":"This is a description",
+                                    "url":"<a href='https://www.tavairporthotels.com.tr/en-EN/'>"
                                 },
                                 "geometry":{
                                     "type":"Point",
                                     "coordinates":[
-                                    121.4589,
-                                    16.3342
+                                    27.1479,
+                                    38.2950
                                     ]
                                 }
                             },
                             {
                                 "type":"Feature",
                                 "properties":{
-                                    "client":"Newcrest Mining Ltd.",
-                                    "project":"Seguela gold deposit",
-                                    "Country":"Cote d'Ivoire",
-                                    "State\/Province":"Worodougou Region",
-                                    "Nearest Town":"Seguela",
-                                    "lat":7.96,
-                                    "long":-6.644,
-                                    "time":"November 2016",
-                                    "description":"Detailed and descriptive drill core logging and establishment of a geologic framework",
-                                    "img":"<img src=\".\/img\/projects\/d.JPG\">"
+                                    "name":"Efemçukuru Site",
+                                    "country":"Türkiye",
+                                    "area":"Izmir",
+                                    "description":"This is a description",
+                                    "url":"<a href='https://www.eldoradogold.com/assets/operations/efemcukuru'>"
                                 },
                                 "geometry":{
                                     "type":"Point",
                                     "coordinates":[
-                                    -6.644,
-                                    7.96
+                                    26.9791,
+                                    38.2919
                                     ]
                                 }
                             },
-                            {
-                                "type":"Feature",
-                                "properties":{
-                                    "client":"Newcrest Mining Ltd.",
-                                    "project":"Wailevu West (Mt. Kasi) epithermal gold deposit",
-                                    "Country":"Fiji, Vanua Levu",
-                                    "State\/Province":"Wailevu",
-                                    "Nearest Town":"Savusavu",
-                                    "lat":-16.76535,
-                                    "long":179.02683,
-                                    "time":"September to October 2014",
-                                    "description":"Property-scale mapping, detailed rock library and field trip guide prepared for site geologists ",
-                                    "img":"<img src=\".\/img\/projects\/h.JPG\">"
-                                },
-                                "geometry":{
-                                    "type":"Point",
-                                    "coordinates":[
-                                    179.02683,
-                                    -16.76535
-                                    ]
-                                }
-                            },
-                            {
-                                "type":"Feature",
-                                "properties":{
-                                    "client":"GoldFields Ltd.",
-                                    "project":"Toodoggone Project",
-                                    "Country":"Canada",
-                                    "State\/Province":"British Columbia",
-                                    "Nearest Town":"Mackenzie",
-                                    "lat":57.130624,
-                                    "long":-126.919844,
-                                    "time":"August 2014",
-                                    "description":"Prospecting program and assessment report writing",
-                                    "img":"<img src=\".\/img\/projects\/f.JPG\">"
-                                },
-                                "geometry":{
-                                    "type":"Point",
-                                    "coordinates":[
-                                    -126.919844,
-                                    57.130624
-                                    ]
-                                }
-                            },
-                            {
-                                "type":"Feature",
-                                "properties":{
-                                    "client":"Durfeld Geological Management",
-                                    "project":"RedGold deposit",
-                                    "Country":"Canada",
-                                    "State\/Province":"British Columbia",
-                                    "Nearest Town":"Horsefly",
-                                    "lat":52.33277,
-                                    "long":-121.417299,
-                                    "time":"January to February 2020",
-                                    "description":"Compilation of trenching, drilling, geophysical, and geochemical data into a Leapfrog 3D geologic modelling for target generation",
-                                    "img":"<img src=\".\/img\/projects\/g.JPG\">"
-                                },
-                                "geometry":{
-                                    "type":"Point",
-                                    "coordinates":[
-                                    -121.417299,
-                                    52.33277
-                                    ]
-                                }
-                            },
-                            {
-                                "type":"Feature",
-                                "properties":{
-                                    "client":"Kinross Minera Chile Ltda.",
-                                    "project":"La Coipa epithermal gold-silver deposits",
-                                    "Country":"Chile",
-                                    "State\/Province":"Atacama",
-                                    "Nearest Town":"Copiapo",
-                                    "lat":-26.7,
-                                    "long":-69.5,
-                                    "time":"November 2015",
-                                    "description":"Detailed drill core logging and mapping of hydrothermal and volcanic breccias to establish a functional breccia logging scheme",
-                                    "img":"<img src=\".\/img\/projects\/e.JPG\">"
-                                },
-                                "geometry":{
-                                    "type":"Point",
-                                    "coordinates":[
-                                    -69.519248932857366,
-                                    -26.680610519133662
-                                    ]
-                                }
-                            }
+                            
+                            
+                            
                         ]
                     } 
                     
@@ -230,9 +125,9 @@
                     function forEachFeature(feature, layer) {
                         var popupContent = 
                             "<table style='text-align:center; vertical-align:middle'"+">"+                                        
-                                "<tr><h3>"+feature.properties.client+"</h3></tr>"+
-                                "<tr><h6>"+feature.properties.project+"</h6></tr>"+
-                                "<tr><h6>"+feature.properties.time+"</h6></tr>"+
+                                "<tr><h3>"+feature.properties.name+"</h3></tr>"+
+                                "<tr><h6>"+feature.properties.description+"</h6></tr>"+
+                                "<tr><h6>"+feature.properties.url+"</h6></tr>"+
                             "</table>";
                             //"<tr>"+feature.properties.img+"</tr></table>"
                         layer.bindPopup(popupContent);
@@ -256,7 +151,7 @@
                     }                                                       
                                         
                     // create features    
-                    feat = L.geoJSON(projects, {
+                    feat = L.geoJSON(locations, {
                         onEachFeature: forEachFeature,
                         pointToLayer: function(feature,latlng){                                    
                             var featMarker = L.marker(latlng,{icon: icon});
@@ -266,7 +161,7 @@
                     });
 
                     // fit bounds for setting initial zoom level across different devices
-                    map.fitBounds(feat.getBounds());
+                    map.fitBounds(feat.getBounds(), {padding:[50,50]});
 
                     feat.addTo(map);      
                     
